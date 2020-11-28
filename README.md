@@ -8,7 +8,7 @@ _LAFE es un sitio donde el cliente va a poder comprar las herramientas necesaria
 
 
 -------------------------------------------------------------------------------
-<h2> **El equipo** </h2>
+<h2> El equipo </h2>
 
 **_Pedro_**: 
 
