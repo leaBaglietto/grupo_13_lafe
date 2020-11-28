@@ -1,12 +1,12 @@
-#### H4 _GRUPO 13 - Trabajo integrador_
+#### _GRUPO 13 - Trabajo integrador_
 ---
-<h1> :hammer_and_wrench: LAFE - Herramientas para la industria:hammer_and_wrench: </h1> 
+# :hammer_and_wrench: LAFE - Herramientas para la industria:hammer_and_wrench: 
 
 _LAFE es un sitio donde el cliente va a poder comprar las herramientas necesarias para su empresa, taller o hobbiar. Tambien podra alquilar por meses con los packs que tenemos para ofrecerles. se pueden registrar como usuario habitual y disfrutar de los beneficios que eso trae._
 
 ---
 
-El equipo
+### **EL EQUIPO**
 
 **_Pedro_**: 
 
@@ -16,4 +16,4 @@ El equipo
 
 ---
 
-This is the way... 
+###### This is the way... 
