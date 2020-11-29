@@ -8,7 +8,7 @@ _LAFE es un sitio donde el cliente va a poder comprar las herramientas necesaria
 
 ### **EL EQUIPO**
 
-**_Pedro_**: 
+**_Pedro_**: El que menos sabe del grupo. Ayudaré desde donde me indiquen.
 
 **_Alexis_**:
 
