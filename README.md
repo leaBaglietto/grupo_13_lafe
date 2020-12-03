@@ -10,7 +10,7 @@ _LAFE es un sitio donde el cliente va a poder comprar las herramientas necesaria
 
 **_Pedro_**: El que menos sabe del grupo. Ayudaré desde donde me indiquen.
 
-**_Alexis_**:
+**_Alexis_**: El ingeniero. Enemistado con el curso, pero con mucho talento para derrochar.
 
 **_Leandro_**: El diseñador del grupo o eso intento, sino sale veo como hago pero lo hago funcionar.
 
