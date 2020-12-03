@@ -15,5 +15,12 @@ _LAFE es un sitio donde el cliente va a poder comprar las herramientas necesaria
 **_Leandro_**: El diseñador del grupo o eso intento, sino sale veo como hago pero lo hago funcionar.
 
 ---
-
+### **Inspiración***
+Estos son algunos de los sitios que visitamos a la hora de ver como presentar los productos. El objetivo es llegar al target deseado y generar el máximo posible de ventas. Para ello, es esencial contar con un sitio de calidad. Esto implica esquematizar de manera ordenada página de aterrizaje,incitar al usuario a registrarse y darle la posibilidad de acceder desde ella a subsitios con los productos, entre otras cosas. 
+1. https://www.einhell.com/
+2. https://www.stihl.com.ar/
+3. http://www.bulferind.com.ar/
+4. http://www.sincrolamp.com.ar/web/
+5. https://www.ikea.com/es/es/
+6. https://www.todomaquinas.com.ar/ 
 ###### This is the way... 
