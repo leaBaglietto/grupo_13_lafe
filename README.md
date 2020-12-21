@@ -6,16 +6,16 @@ _LAFE es un sitio donde el cliente va a poder comprar las herramientas necesaria
 
 ---
 
-### **EL EQUIPO**
+:alien: :rage: :muscle:### **EL EQUIPO**
 
-**_Pedro_**: El que menos sabe del grupo. Ayudaré desde donde me indiquen.
+:muscle: **_Pedro_**: El que menos sabe del grupo. Ayudaré desde donde me indiquen.
 
-**_Alexis_**: El ingeniero. Enemistado con el curso, pero con mucho talento para derrochar.
+:rage: **_Alexis_**: El ingeniero. Enemistado con el curso, pero con mucho talento para derrochar.
 
-**_Leandro_**: El diseñador del grupo o eso intento, sino sale veo como hago pero lo hago funcionar.
+:alien:  **_Leandro_**: El diseñador del grupo o eso intento, sino sale veo como hago pero lo hago funcionar.
 
 ---
-### **Inspiración**
+### :bulb:**Inspiración**
 Estos son algunos de los sitios que visitamos a la hora de ver como presentar los productos. El objetivo es llegar al target deseado y generar el máximo posible de ventas. Para ello, es esencial contar con un sitio de calidad. Esto implica esquematizar de manera ordenada página de aterrizaje y facilitarle al usuario el proceso de compra, entre otras cosas.
 1. https://www.einhell.com/
 2. https://www.stihl.com.ar/
