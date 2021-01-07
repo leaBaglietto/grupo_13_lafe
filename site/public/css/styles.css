@@ -1,3 +1,21 @@
-body { 
-    font-family: 'Roboto', sans-serif;
+* {
+    box-sizing: border-box;
 }
+body { 
+    background-color: aquamarine;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* BARRA NAVEGADORA inicio*/
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.logo-lafe {
+    background-color: black;
+    width: 200px;
+}
+
+
+/* BARRA NAVEGADORA Fin*/
