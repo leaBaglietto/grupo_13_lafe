@@ -10,6 +10,9 @@ app.listen (3000, () => {
 app.get ('/', (req, res) => {
        res.sendFile(path.join(__dirname, './src/views/index.html'));
 })
+app.get('/register', (req, res) => {
+    res.sendFile(path.join(__dirname, './src/views/register.html'));
+});
 
 const publicPath = path.join (__dirname, './public');
 app.use( express.static(publicPath));
