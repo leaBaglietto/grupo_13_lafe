@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+}
+body { 
+    background-color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* BARRA NAVEGADORA inicio*/
+.nav-bar {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.menu-sec {
+    display: flex;
+}
+.menu-sec i {
+    padding-left: 20px;
+}
+.logo-lafe {
+    width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+
+}
+.logo-carrito a, .logo-registrarse a, .burger-menu {
+    color: white;
+}
+.hero-img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-search input {
+    width: 110%;
+    height: 2rem;
+    padding: 2px;
+    border-radius: 25px;
+    border: 1px solid  #EB0000;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+/* BARRA NAVEGADORA Fin*/
+
+/*ARTICULOS*/
+/*ARTICULO 1*/
+.cart-article1 {
+    width:70%;
+    height: 8rem;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px white;
+}
+.img-article1 {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(240, 144, 203);
+    background: url(/img/producto2.jpg);
+    background-size: cover;
+}
+
+.description-article1 {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.title-article1 {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.price-article1 {
+    font-weight:600;
+    font-size: 20px;
+}
+/*FIN ARTICULO 1*/
+
+/*ARTICULO 2*/
+.cart-article2 {
+    width:70%;
+    height: 8rem;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px white;
+}
+.img-article2 {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(240, 144, 203);
+    background: url(/img/producto3.jpg);
+    background-size: cover;
+}
+
+.description-article2 {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.title-article2 {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.price-article2 {
+    font-weight:600;
+    font-size: 20px;
+}
+/*FIN ARTICULO 2*/
+
+/*ARTICULO 3*/
+.cart-article3 {
+    width:70%;
+    height: 8rem;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px white;
+}
+.img-article3 {
+    width: 120px;
+    height: 120px;
+    background: url(/img/producto1.jpg);
+    background-size: cover;
+}
+
+.description-article3 {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.title-article3 {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.price-article3 {
+    font-weight:600;
+    font-size: 20px;
+}
+/*FIN ARTICULO 3*/
+
+/*ARTICULO 4*/
+.cart-article4 {
+    width:70%;
+    height: 8rem;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px white;
+}
+.img-article4 {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(240, 144, 203);
+    background: url(/img/producto4.jpg);
+    background-size: cover;
+}
+
+.description-article4 {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.title-article4 {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.price-article4 {
+    font-weight:600;
+    font-size: 20px;
+}
+/*FIN ARTICULO 4*/
+
+/* FIN DE ARTICULOS */
+
+
+/* FOOTER */
+.footer {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    width: 100%;
+    height: 150px;
+    padding: 30px 30px;
+    font-size: 18px;
+}
+.pie {
+    display: flex;
+    justify-content: space-around;
+}
+.contacto {
+    width: 700px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.rrss {
+    width: 150px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Legales {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* FOOTER fin */
