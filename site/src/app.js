@@ -13,7 +13,7 @@ app.listen (3000, () => {
 });
 
 app.get ('/', (req, res) => {
-       res.sendFile(path.join(__dirname, './src/views/index.html'));
+       res.sendFile(path.join(__dirname, './views/index.html'));
 })
 /*
 app.get('/register', (req, res) => {
@@ -37,6 +37,7 @@ app.get('/register', (req, res) => {
 const publicPath = path.join (__dirname, './public');
 app.use( express.static(publicPath));
 
+// Instalacion de EJS //  
 app.set('view engine', 'ejs')
 app.set('views', './views')
 
