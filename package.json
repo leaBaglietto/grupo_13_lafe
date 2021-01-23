@@ -1,0 +1,19 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "---\r # :hammer_and_wrench: LAFE - Herramientas para la industria:hammer_and_wrench:",
+  "main": "app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leaBaglietto/grupo_13_lafe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leaBaglietto/grupo_13_lafe/issues"
+  },
+  "homepage": "https://github.com/leaBaglietto/grupo_13_lafe#readme"
+}
