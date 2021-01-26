@@ -1,8 +1,8 @@
 const express = require ('express');
 const path = require ('path');
 
-
-const usersRoutes = require ('./routes/userRoutes')
+const mainRoutes = require ('./src/routes/mainRoutes')
+// const usersRoutes = require ('./src/routes/mainRoutes')
 
 const app = express ();
 
@@ -12,6 +12,13 @@ app.listen (3000, () => {
     console.log ('--- #quedateEnCasa compra onLine ---')
 });
 
+// LLAMAMOS A EJS PARA QUE SEA NUESTRO TEMPLATE ENGINE
+app.set('view engine', 'ejs');
+app.use ('/', mainRoutes);
+
+app.set ('views', 'src/views')
+
+ /*
 app.get ('/', (req, res) => {
        res.sendFile(path.join(__dirname, './views/index.html'));
 })
@@ -20,8 +27,9 @@ app.get('/register', (req, res) => {
     res.sendFile(path.join(__dirname, './src/views/register.html'));
 }); */ 
 
-app.use ('/user',usersRoutes)
+//Ruteador //
 
+/*
 app.get('/productCart', (req, res) => {
     res.sendFile(path.join(__dirname, '/views/productCart.html'));
 });
@@ -32,12 +40,10 @@ app.get('/product', (req, res) => {
 
 app.get('/register', (req, res) => {
     res.sendFile(path.join(__dirname, '/views/register.html'));
-});
+}); */
 
 const publicPath = path.join (__dirname, './public');
 app.use( express.static(publicPath));
 
-// Instalacion de EJS //  
-app.set('view engine', 'ejs')
-app.set('views', './views')
+
 
