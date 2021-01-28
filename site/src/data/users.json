@@ -1,0 +1,11 @@
+[
+    {
+     "id": 1,
+     "first_name": "Un usuario",
+     "last_name": "Editado",
+     "email": "este@crud",
+     "password": "",
+     "category": "vendedor",
+     "image":null
+    }
+   ]
