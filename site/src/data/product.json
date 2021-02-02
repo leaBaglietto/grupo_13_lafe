@@ -1,0 +1,11 @@
+[
+    {
+     "id": 5,
+     "name_product": "Un producto",
+     "descrption":"descipcion",
+     "category": "categoria",
+     "price":"precio",
+     "description": "La amoladora angular inalámbrica Einhell Axxio resulta muy útil a la hora de trabajar en el taller, el hogar y el garaje. Potente, inalámbrica y cómoda",
+     "image":null
+    }
+   ]

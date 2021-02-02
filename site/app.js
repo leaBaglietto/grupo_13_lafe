@@ -1,11 +1,9 @@
 const express = require ('express');
 const path = require ('path');
-
 const mainRoutes = require ('./src/routes/mainRoutes')
-
-
 const app = express ();
 
+// Configuracion de servidor
 app.listen (3000, () => {
     console.log ('-------- BIENVENIDOS A LAFE --------');
     console.log ('ferretero atendiendo en la caja 3000');
