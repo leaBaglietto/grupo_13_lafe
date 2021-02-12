@@ -10,7 +10,14 @@ const controller = {
     },
     productDetail: (req,res) => {
         return res.render ('productDetail');
+    }, 
+    userCreate: (req,res) => {
+        return res.render ('userCreate');
+    },
+    userLogin: (req,res) => {
+        return res.render ('userLogin');
     },
 }
+
 
 module.exports = controller;
