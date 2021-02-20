@@ -1,7 +1,23 @@
-const express = require ('express');
-const path = require ('path');
-const mainRoutes = require ('../src/routes/mainRoutes')
-const app = express ();
+const express = require('express');
+const path = require('path');
+const app = express();
+const methodOverride=require('method-override');
+// --- Configuracion ---
+// LLAMAMOS A EJS PARA QUE SEA NUESTRO TEMPLATE ENGINE
+app.use(express.static('../public'));
+app.set('view engine', 'ejs');
+app.set('views', './views');
+
+//Formularios
+app.use(express.urlencoded({extended:false}))
+app.use(methodOverride('_method'));
+//Rutas
+const mainRoutes=require('./routes/mainRoutes');
+const userRouter=require('./routes/userRouter');
+
+app.use('/', mainRoutes);
+app.use('/users', userRouter);
+
 
 // Configuracion de servidor
 app.listen (3000, () => {
@@ -9,16 +25,5 @@ app.listen (3000, () => {
     console.log ('ferretero atendiendo en la caja 3000');
     console.log ('--- #quedateEnCasa compra onLine ---')
 });
-
-// --- Configuracion ---
-// LLAMAMOS A EJS PARA QUE SEA NUESTRO TEMPLATE ENGINE
-app.set('view engine', 'ejs');
-app.use ('/', mainRoutes);
-
-app.set ('views', '../src/views')
-
-const publicPath = path.join (__dirname, '../public');
-app.use( express.static(publicPath));
-
 
 

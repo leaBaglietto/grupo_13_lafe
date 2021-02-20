@@ -1,29 +1,29 @@
 [
     {
-     "id": 1,
+     "id": "1",
      "first_name": "Carmela",
      "last_name": "Pérez",
      "email": "caperez@yahoo.com.ar",
      "password": "pepino1",
      "category": "vendedora",
-     "image":null
+     "image":"null"
     },
     {
-        "id": 2,
+        "id": "2",
         "first_name": "Lucrecia",
         "last_name": "Varea",
         "email": "lvarea@yahoo.com.ar",
         "password": "saraza35",
         "category": "industrial",
-        "image":null
+        "image":"null"
        },
        {
-        "id": 3,
+        "id": "3",
         "first_name": "Gonzalo",
         "last_name": "Arrieta",
         "email": "garrieta@gmail.com",
         "password": "tomate65",
         "category": "vendedor",
-        "image":null
+        "image":"null"
        }
    ]
