@@ -14,11 +14,13 @@ app.use(methodOverride('_method'));
 //Rutas
 const mainRoutes=require('./routes/mainRoutes');
 const userRouter=require('./routes/userRouter');
-const productRouter=require('./routes/productRouter')
+const productRouter=require('./routes/productRouter');
+const loginRouter=require('./routes/loginRouter');
 
 app.use('/', mainRoutes);
 app.use('/users', userRouter);
-app.use('/product', productRouter)
+app.use('/product', productRouter);
+app.use('/',loginRouter);
 
 // Configuracion de servidor
 app.listen (3000, () => {
