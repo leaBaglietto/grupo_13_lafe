@@ -30,22 +30,35 @@
         <form class="formulario-registro" action="/users/create" method="POST" >
             <div class="control-form">
                 <label></label>
-                <input type="text" name="nombre" class="control" placeholder="Nombre y Apellido">
+                <input type="text" name="first_name" class="control" placeholder="Nombre">
+            </div>
+            <div class="control-form">
+                <label></label>
+                <input type="text" name="last_name" class="control" placeholder="Apellido">
+            </div>
+            <div class="control-form">
+                <label></label>
+                <input type="text" name="email" class="control" placeholder="email@email.com">
             </div>
 
             <div class="control-form">
                 <label></label>
-                <input type="text" name="nombre" class="control" placeholder="email@email.com">
+                <select name="category">
+                    <option value="">elija una categoria</option>
+                    <option value="vendedor">vendedor</option>
+                    <option value="comprador">comprador</option>
+                </select>
+            </div>
+
+
+            <div class="control-form">
+                <label></label>
+                <input type="password" name="password" class="control" placeholder="Contraseña">
             </div>
 
             <div class="control-form">
                 <label></label>
-                <input type="text" name="nombre" class="control" placeholder="Contraseña">
-            </div>
-
-            <div class="control-form">
-                <label></label>
-                <input type="text" name="nombre" class="control" placeholder="confirmar contraseña">
+                <input type="password" name="repassword" class="control" placeholder="confirmar contraseña">
             </div>
                  <button class="control-button" type="submit"> Registrarse </button>
 

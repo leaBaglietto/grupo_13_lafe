@@ -1,29 +1,77 @@
 [
-    {
-     "id": "1",
-     "first_name": "Carmela",
-     "last_name": "Pérez",
-     "email": "caperez@yahoo.com.ar",
-     "password": "pepino1",
-     "category": "vendedora",
-     "image":"null"
-    },
-    {
-        "id": "2",
-        "first_name": "Lucrecia",
-        "last_name": "Varea",
-        "email": "lvarea@yahoo.com.ar",
-        "password": "saraza35",
-        "category": "industrial",
-        "image":"null"
-       },
-       {
-        "id": "3",
-        "first_name": "Gonzalo",
-        "last_name": "Arrieta",
-        "email": "garrieta@gmail.com",
-        "password": "tomate65",
-        "category": "vendedor",
-        "image":"null"
-       }
-   ]
+ {
+  "id": "1",
+  "first_name": "Carmela",
+  "last_name": "Pérez",
+  "email": "caperez@yahoo.com.ar",
+  "password": "pepino1",
+  "category": "vendedora",
+  "image": "null"
+ },
+ {
+  "id": "2",
+  "first_name": "Lucrecia",
+  "last_name": "Varea",
+  "email": "lvarea@yahoo.com.ar",
+  "password": "saraza35",
+  "category": "industrial",
+  "image": "null"
+ },
+ {
+  "id": "3",
+  "first_name": "Gonzalo",
+  "last_name": "Arrieta",
+  "email": "garrieta@gmail.com",
+  "password": "tomate65",
+  "category": "vendedor",
+  "image": "null"
+ },
+ {
+  "full_name": "pedro alexis",
+  "email": "lea@lea",
+  "password": "1234",
+  "repassword": "1234",
+  "id": 4
+ },
+ {
+  "full_name": "pedro alexis",
+  "email": "lea@lea",
+  "password": "1234",
+  "repassword": "1234",
+  "id": 5
+ },
+ {
+  "full_name": "lando",
+  "email": "lando@dh.com",
+  "password": "1234",
+  "repassword": "1234",
+  "id": 6
+ },
+ {
+  "first_name": "lala",
+  "last_name": "lolo",
+  "email": "lando@dh.com",
+  "category": "vendedor",
+  "password": "1234",
+  "repassword": "1234",
+  "id": 7
+ },
+ {
+  "first_name": "Pao",
+  "last_name": "Pol",
+  "email": "pol@blue",
+  "category": "comprador",
+  "password": "1234",
+  "repassword": "1234",
+  "id": 8
+ },
+ {
+  "first_name": "Pol",
+  "last_name": "saiyan blue",
+  "email": "pol@blue",
+  "category": "vendedor",
+  "password": "12345",
+  "repassword": "12345",
+  "id": 9
+ }
+]
