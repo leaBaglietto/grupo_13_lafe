@@ -30,23 +30,28 @@
     <form class="formulario" action="/product/create" method="POST">
         <div class="control-form">
             <label></label>
-            <input type="text" name="precio" class="control" placeholder="Id">
+            <input type="text" name="id" class="control" placeholder="Id">
         </div>
         <div class="control-form">
             <label></label>
-            <input type="text" name="nombre" class="control" placeholder="Nombre del producto">
+            <input type="text" name="product" class="control" placeholder="Nombre del producto">
         </div>
         <div class="control-form">
             <label></label>
-            <input type="text" name="precio" class="control" placeholder="Precio">
+            <input type="text" name="brand" class="control" placeholder="Marca">
         </div>
         <div class="control-form">
-            <label>Rubro</label>
-            <select name="categorias" class="control">
-                <option name="plomeria">Plomeria</option>
-                <option name="electricidad">Electricidad</option>
-                <option name="construcción">Construcción</option>
-                <option name="carpinteria">Carpinteria</option>
+            <label></label>
+            <input type="text" name="price" class="control" placeholder="Precio">
+        </div>
+        <div class="control-form">
+            <label></label>
+            <select name="category">
+                <option value="">elija una categoria</option>
+                <option value="plomeria">Plomeria</option>
+                <option value="electronica">Electronica</option>
+                <option value="carpinteria">Carpintería</option>
+                <option value="Construcción">Construcción</option>
             </select>
         </div>
         <div class="control-form">
