@@ -17,10 +17,16 @@ module.exports = {
         // newUser.password = hashear contraseña //
         // Cuando tengamos imagenes //
         let userId = usersTable.create(newUser);
-        console.log (userId)
-        /* res.redirect('/') */
-        res.send('usuario creado' + userId)
+        let user = usersTable.findByField('email', req.body.email); 
+        console.log (productId)
+       /*  let user={"first_name":'Pedro', "email":'pedro@lean.com'} */
+         res.render('Profile',{user})
+        /*res.send('usuario creado' + userId)*/
     }
+    //view:(req,res)=>{
+        //'El view muestra la info del usuario. Lo de abajo es a modo de ejemplo'
+      //res.redirect('/profile/5')
+   // }//
 
 };
 

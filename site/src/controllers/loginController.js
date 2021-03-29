@@ -1,36 +1,42 @@
 const fs = require('fs');
 const path = require('path');
+const bcryptjs = require('bcryptjs');
+const jsonTable = require('../data/jsonTable');
+const loginTable = jsonTable('users');
+const users = {
+    filePath: path.join(__dirname, '../data/users.json'),
+    readFile() {
+        let rows = fs.readFileSync(this.filePath, 'utf-8');
+        rows = JSON.parse(users);}}
 
+module.exports={
+    userLogin:(req,res)=> {
+		return res.render('userLogin');
+	},
+	loginProcess: (req, res) => {
+		let userToLogin =loginTable.findByField('email', req.body.email);
+		
+		if(userToLogin) {
+			let isOkThePassword = bcryptjs.compareSync(req.body.password, userToLogin.password);
+			if (isOkThePassword) {
+				delete userToLogin.password;
+				req.session.userLogged = userToLogin;
 
-module.exports = {
-    userLogin: (req, res) => {
-        res.render('userLogin')
-    },
-    loginDone: (req, res) => {
-        res.send(req.body)
-        /*     loginDone: (req, res) => {
-                let user = jsonTable.findById(req.params.id);
-                if ( user ) {
-                    res.render('users/detail', { user });
-                } else {
-                    res.send('No encontré el usuario');
-                } */
-
-    }
-
-
-}; 
-
-/* processCreate: (req, res) => {
-    let newUser = req.body
-    delete newUser.repassword
-    // newUser.password = hashear contraseña //
-    // Cuando tengamos imagenes //
-    let userId = usersTable.create(newUser);
-    console.log (userId)
-    /* res.redirect('/') */
-    /* res.send('usuario creado' + userId) */
-
-
-
-
+				return res.redirect('/user/profile');
+			} 
+			return res.render('userLogin', {
+				errors: {
+					email: {
+						msg: 'Las credenciales son inválidas'
+					}
+				}
+			});
+		}
+		return res.render('userLogin', {
+			errors: {
+				email: {
+					msg: 'No se encuentra este email en nuestra base de datos'
+				}
+			}
+		});
+    }}

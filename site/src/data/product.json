@@ -1,26 +1,42 @@
 [
-    {
-     "id": 1,
-     "name_product": "Amoladora angular",
-     "category": "Hogar",
-     "price":"15000",
-     "description": "La amoladora angular inalámbrica Einhell Axxio resulta muy útil a la hora de trabajar en el taller, el hogar y el garaje. Potente, inalámbrica y cómoda",
-     "image":null
-    },
-    {
-        "id": 2,
-        "name_product": "Martillo neumático",
-        "category": "Industrial",
-        "price":"20000",
-        "description": "El martillo neumático resulta muy útil a la hora de trabajar en el taller, el hogar y el garaje. Potente, inalámbrica y cómoda",
-        "image":null
-       },
-       {
-        "id": 3,
-        "name_product": "Llave trifásica",
-        "category": "Hogar",
-        "price":"5000",
-        "description": "La llave trifásica resulta muy útil a la hora de trabajar en el taller, el hogar y el garaje. Potente, inalámbrica y cómoda",
-        "image":null
-       }
-   ]
+ {
+  "id": 1,
+  "name_product": "Amoladora angular",
+  "category": "Hogar",
+  "price": "15000",
+  "description": "La amoladora angular inalámbrica Einhell Axxio resulta muy útil a la hora de trabajar en el taller, el hogar y el garaje. Potente, inalámbrica y cómoda",
+  "image": null
+ },
+ {
+  "id": 2,
+  "name_product": "Martillo neumático",
+  "category": "Industrial",
+  "price": "20000",
+  "description": "El martillo neumático resulta muy útil a la hora de trabajar en el taller, el hogar y el garaje. Potente, inalámbrica y cómoda",
+  "image": null
+ },
+ {
+  "id": 3,
+  "name_product": "Llave trifásica",
+  "category": "Hogar",
+  "price": "5000",
+  "description": "La llave trifásica resulta muy útil a la hora de trabajar en el taller, el hogar y el garaje. Potente, inalámbrica y cómoda",
+  "image": null
+ },
+ {
+  "product": "destornillador",
+  "brand": "stanley",
+  "price": "200",
+  "category": "carpinteria",
+  "Descripcion": "Sarasa",
+  "id": 4
+ },
+ {
+  "product": "martillo",
+  "brand": "stanley",
+  "price": "300",
+  "category": "carpinteria",
+  "Descripcion": "no sirve",
+  "id": 5
+ }
+]

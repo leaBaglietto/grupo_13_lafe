@@ -7,5 +7,5 @@ const loginController= require("../controllers/loginController");
 router.get('/login', loginController.userLogin);
 
 //procesar el registro
-router.post('/login',loginController.loginDone);
+router.post('/login',loginController.loginProcess);
 module.exports=router;
