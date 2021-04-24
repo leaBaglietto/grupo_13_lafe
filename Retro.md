@@ -10,3 +10,11 @@ _Paso el 2do sprint, enfocado en la construccion de algunas paginas del sitio, e
 Nos tendriamos que haber dado un feedback de que hizo bien cada y que no. Nos falta un poco mas de unidad y charlas semanales para resolver el sprint, en la clase donde hicimos la dinamica estrella se vio que la idea fuerte era hablar menos (pavadas) y hacer más. 
 
 Resumiendo las paginas del sitio quedaron armadas, no al nivel que esperabamos pero estan en un estado bastante optimo, durante los siguientes sprint mientras algunos hacen una parte el que esta libre podria reotcar esos detalles._ 
+
+### **Sprint 3**
+_Ejs
+En todo el camino hasta se transito con la comunicación justa y necesaria. Fue el punto mas flojo del sprint. 
+
+En cuanto  establecer las rutas de EJS lo logramos hacer entendiendo la dinamica.
+
+Que nos queda mejorar para el proximo sprint, mejorar los encuentros, hacerlos mas productivos, realizar pasos cortos pero que terminen haciendo funcionar una parte del sitio._  
