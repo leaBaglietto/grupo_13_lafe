@@ -8,4 +8,5 @@ router.get('/create', productController.agregarProducto);
 
 router.post('/create',productController.productoAgregado);
 
+
 module.exports=router;
