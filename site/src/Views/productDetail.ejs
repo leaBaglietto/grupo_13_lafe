@@ -25,9 +25,11 @@
             <div class="product-img"></div>
         <div class="container-detail">
             <div class="detail-product">
-                <h3 class="title-product">Amoladora angular inalámbrica</h3>
-                <h3 class="price-product">$12.200</h3>
-                <p class="description-product">La amoladora angular inalámbrica Einhell Axxio resulta muy útil a la hora de trabajar en el taller, el hogar y el garaje. Potente, inalámbrica y cómoda: estas son las características a las que se otorgó una gran importancia durante su diseño. La amoladora angular forma parte de la familia Power X-Change, por lo que la batería se puede utilizar en todos los dispositivos autónomos de la serie. La batería Plus de 2,6 Ah y las baterías más potentes de la serie ofrecen unos resultados óptimos. El motor sin escobillas ofrece más potencia y, por lo tanto, una vida útil más prolongada. Arranque suave Softstart y protección contra rearranque para una mayor seguridad del usuario. Su compacto diseño con empuñadura ergonómica Softgrip y empuñadura auxiliar antivibraciones hacen que resulte agradable trabajar con ella. El desacoplamiento del motor y la transmisión garantizan un funcionamiento suave y la protección del disco, provisto de ajuste rápido, permite un trabajo flexible. La empuñadura auxiliar se puede montar con flexibilidad en dos posiciones. La amoladora angular inalámbrica está equipada con protección contra sobrecargas y su durabilidad está garantizada gracias a una robusta caja de engranajes de aluminio. La entrega no incluye batería ni cargador. Del mismo modo, un disco de corte adecuado (cuyo diámetro es de 125 mm) se vende por separado.</p>
+                <h3 class="title-product"><%= product.product_name %></h3>
+                <h3 class="title-product"><%= product.category %></h3>
+                <h3 class="title-product"><%= product.brand %></h3>
+                <h3 class="price-product"><%= product.price %></h3>
+                <p class="description-product" ><%= product.description %></p> 
             </div>
             <div class="container-buttons">
                 <button class="compare"><a href="#">Modificar producto</a></button>

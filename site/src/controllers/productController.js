@@ -13,8 +13,8 @@ agregarProducto: (req, res) => {
 productoAgregado: (req, res) => {
     let newProduct = req.body
     let productId = productTable.create(newProduct);
-    let product = productTable.findByField('name_product', req.body.name_product); 
-    console.log (productId)
+    let product = productTable.findByField('id', productId); 
+    console.log (product)
      res.render('productDetail',{product})
 }}
 

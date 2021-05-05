@@ -4,8 +4,8 @@ const router=express.Router();
 const loginController= require("../controllers/loginController");
 
 //llamamos al formulario de registro
-router.get('/login', loginController.userLogin);
+router.get('/enter', loginController.userLogin);
 
 //procesar el registro
-router.post('/login',loginController.loginProcess);
+router.post('/enter',loginController.loginProcess);
 module.exports=router;

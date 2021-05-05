@@ -321,5 +321,21 @@
   "category": "comprador",
   "password": "river",
   "id": 40
+ },
+ {
+  "first_name": "Carlo",
+  "last_name": "Cana",
+  "email": "carlo@cana.com",
+  "category": "vendedor",
+  "password": "234234",
+  "id": 41
+ },
+ {
+  "first_name": "Carlo",
+  "last_name": "Cana",
+  "email": "carlo@cana.com",
+  "category": "vendedor",
+  "password": "234234",
+  "id": 42
  }
 ]

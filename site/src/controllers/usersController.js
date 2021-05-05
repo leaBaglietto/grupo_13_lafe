@@ -18,7 +18,7 @@ module.exports = {
         // Cuando tengamos imagenes //
         let userId = usersTable.create(newUser);
         let user = usersTable.findByField('email', req.body.email); 
-        console.log (productId)
+        console.log (userId)
        /*  let user={"first_name":'Pedro', "email":'pedro@lean.com'} */
          res.render('Profile',{user})
         /*res.send('usuario creado' + userId)*/

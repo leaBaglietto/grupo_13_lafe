@@ -20,7 +20,7 @@ const loginRouter=require('./routes/loginRouter');
 app.use('/', mainRoutes);
 app.use('/users', userRouter);
 app.use('/product', productRouter);
-app.use('/',loginRouter);
+app.use('/login',loginRouter);
 
 // Configuracion de servidor
 app.listen (3000, () => {

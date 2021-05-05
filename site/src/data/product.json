@@ -1,7 +1,7 @@
 [
  {
   "id": 1,
-  "name_product": "Amoladora angular",
+  "product_name": "Amoladora angular",
   "category": "Hogar",
   "price": "15000",
   "description": "La amoladora angular inalámbrica Einhell Axxio resulta muy útil a la hora de trabajar en el taller, el hogar y el garaje. Potente, inalámbrica y cómoda",
@@ -9,7 +9,7 @@
  },
  {
   "id": 2,
-  "name_product": "Martillo neumático",
+  "product_name": "Martillo neumático",
   "category": "Industrial",
   "price": "20000",
   "description": "El martillo neumático resulta muy útil a la hora de trabajar en el taller, el hogar y el garaje. Potente, inalámbrica y cómoda",
@@ -17,114 +17,74 @@
  },
  {
   "id": 3,
-  "name_product": "Llave trifásica",
+  "product_name": "Llave trifásica",
   "category": "Hogar",
   "price": "5000",
   "description": "La llave trifásica resulta muy útil a la hora de trabajar en el taller, el hogar y el garaje. Potente, inalámbrica y cómoda",
   "image": null
  },
  {
-  "product": "destornillador",
+  "product_name": "destornillador",
   "brand": "stanley",
-  "price": "200",
+  "price": "400",
   "category": "carpinteria",
-  "Descripcion": "Sarasa",
+  "description": "sarasa",
   "id": 4
  },
  {
-  "product": "martillo",
+  "product_name": "destornillador",
   "brand": "stanley",
-  "price": "300",
+  "price": "100",
   "category": "carpinteria",
-  "Descripcion": "no sirve",
+  "description": "sarasa",
   "id": 5
  },
  {
-  "product": "martillo",
-  "brand": "lala",
-  "price": "1000000",
-  "category": "carpinteria",
-  "Descripcion": "wefwefwf",
+  "product_name": "martillo",
+  "brand": "stanley",
+  "price": "275",
+  "category": "Construcción",
+  "description": "aaaa",
   "id": 6
  },
  {
-  "product": "",
-  "brand": "",
-  "price": "",
-  "category": "",
-  "Descripcion": "",
+  "product_name": "destornillador",
+  "brand": "lean",
+  "price": "245",
+  "category": "plomeria",
+  "description": "aa",
   "id": 7
  },
  {
-  "product": "",
-  "brand": "",
-  "price": "",
-  "category": "",
-  "Descripcion": "",
+  "product_name": "destornillador",
+  "brand": "stanley",
+  "price": "350",
+  "category": "plomeria",
+  "description": "sirve para nada\r\n",
   "id": 8
  },
  {
-  "product": "amoladora",
+  "product_name": "destornillador",
   "brand": "stanley",
-  "price": "12000",
-  "category": "Construcción",
-  "Descripcion": "La amoladora Stanley es la mejor herramienta del mercado, corta a mas de 1200 RPM. ",
+  "price": "350",
+  "category": "plomeria",
+  "Descripcion": "sirve para nada\r\n",
   "id": 9
  },
  {
-  "product": "amoladora",
-  "brand": "stanley",
-  "price": "12000",
+  "product_name": "sierra eléctrica",
+  "brand": "melaba",
+  "price": "2000",
   "category": "Construcción",
-  "Descripcion": "La amoladora Stanley es la mejor herramienta del mercado, corta a mas de 1200 RPM. ",
+  "description": "Ningún uso previo. Excelente calidad. ",
   "id": 10
  },
  {
-  "product": "amoladora",
-  "brand": "stanley",
-  "price": "12000",
+  "product_name": "sierra eléctrica",
+  "brand": "melaba",
+  "price": "2000",
   "category": "Construcción",
-  "Descripcion": "La amoladora Stanley es la mejor herramienta del mercado, corta a mas de 1200 RPM. ",
+  "description": "Ningún uso previo. Excelente calidad. ",
   "id": 11
- },
- {
-  "product": "amoladora",
-  "brand": "stanley",
-  "price": "12000",
-  "category": "Construcción",
-  "Descripcion": "La amoladora Stanley es la mejor herramienta del mercado, corta a mas de 1200 RPM. ",
-  "id": 12
- },
- {
-  "product": "amoladora",
-  "brand": "stanley",
-  "price": "12000",
-  "category": "Construcción",
-  "Descripcion": "La amoladora Stanley es la mejor herramienta del mercado, corta a mas de 1200 RPM. ",
-  "id": 13
- },
- {
-  "product": "amoladora",
-  "brand": "stanley",
-  "price": "12000",
-  "category": "Construcción",
-  "Descripcion": "La amoladora Stanley es la mejor herramienta del mercado, corta a mas de 1200 RPM. ",
-  "id": 14
- },
- {
-  "product": "amoladora",
-  "brand": "stanley",
-  "price": "12000",
-  "category": "Construcción",
-  "Descripcion": "La amoladora Stanley es la mejor herramienta del mercado, corta a mas de 1200 RPM. ",
-  "id": 15
- },
- {
-  "product": "amoladora",
-  "brand": "stanley",
-  "price": "12000",
-  "category": "Construcción",
-  "Descripcion": "La amoladora Stanley es la mejor herramienta del mercado, corta a mas de 1200 RPM. ",
-  "id": 16
  }
 ]
