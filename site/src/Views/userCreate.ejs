@@ -27,18 +27,28 @@
     <!--FORMULARIO-->
     <div class="container-form">
             <!--REGISTRO-->
-        <form class="formulario-registro" action="/users/create" method="POST" >
+        <form class="formulario-registro" action="/users/create" method="POST" id="form">
             <div class="control-form">
                 <label></label>
-                <input type="text" name="first_name" class="control" placeholder="Nombre">
+                <input type="text" name="first_name" placeholder="Nombre" id="first_name">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+
             </div>
             <div class="control-form">
                 <label></label>
-                <input type="text" name="last_name" class="control" placeholder="Apellido">
+                <input type="text" name="last_name" class="control" placeholder="Apellido" id="last_name">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
             </div>
             <div class="control-form">
                 <label></label>
-                <input type="text" name="email" class="control" placeholder="email@email.com">
+                <input type="text" name="email" class="control" placeholder="email@email.com" id="email">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
             </div>
 
             <div class="control-form">
@@ -53,12 +63,18 @@
 
             <div class="control-form">
                 <label></label>
-                <input type="password" name="password" class="control" placeholder="Contraseña">
+                <input type="password" name="password" class="control" placeholder="Contraseña" id="password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
             </div>
 
             <div class="control-form">
                 <label></label>
-                <input type="password" name="repassword" class="control" placeholder="confirmar contraseña">
+                <input type="password" name="repassword" class="control" placeholder="confirmar contraseña" id="password2">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
             </div>
                  <button class="control-button" type="submit"> Registrarse </button>
 
@@ -66,4 +82,5 @@
     </div>
     
 </body>
+<script src="/js/userCreateValidation.js"></script>
 </html>

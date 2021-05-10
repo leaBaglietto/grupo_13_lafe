@@ -23,9 +23,9 @@ app.use('/product', productRouter);
 app.use('/login',loginRouter);
 
 // Configuracion de servidor
-app.listen (3000, () => {
+app.listen (3030, () => {
     console.log ('-------- BIENVENIDOS A LAFE --------');
-    console.log ('ferretero atendiendo en la caja 3000');
+    console.log ('ferretero atendiendo en la caja 3030');
     console.log ('--- #quedateEnCasa compra onLine ---')
 });
 

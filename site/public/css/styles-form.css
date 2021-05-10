@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body { 
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(170, 170, 170);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -43,13 +43,17 @@ margin: 10px 50x;
     margin: 10px 50px;
     }    
 
+.control-form {
+    margin-bottom: 5px;
+    position: relative;
+}
+
 .control-form label {
+    display: inline-block;
     background-color: black;
     border: none;
 }
-.control-form {
-    margin-bottom: 5px;
-}
+
 
 .control-form input {
     color: rgb(187, 187, 187);
@@ -66,7 +70,44 @@ margin: 10px 50x;
     width: 150px;
     height: 30px;
     border-radius: 25px;
-    background-color: tomato;
-    border: none;
+    background-color: red;
+    border: 1px solid rgb(122, 0, 0);
     margin-top: 40px;
 }
+
+.control-form input:focus {
+    outline: 0;
+    border-color: red;
+}
+
+.control-form.success input {
+    border-color: greenyellow;
+}
+
+.control-form i {
+    visibility: hidden;
+/*     position: absolute;
+    top: 40px;
+    right: 10px; */
+}
+
+.control-form.success i.fa-check-circle {
+    color:greenyellow;
+    visibility: visible;
+}
+
+.control-form.success i.fa-exclamation-circle {
+    color: red;
+    visibility: visible;
+}
+
+.control-form small {
+    color: red;
+    visibility: hidden;
+}
+
+.control-form.error small {
+    visibility: visible;
+}
+
+ 
