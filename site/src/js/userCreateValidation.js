@@ -13,7 +13,7 @@ window.addEventListener("load", function () {
         checkInputs();
     });
 
-    function checkInputs() {
+    function checkInputs() { 
         const first_nameValue = first_name.nodeValue.trim();
         const last_nameValue = last_name.value.trim();
         const emailValue = email.value.trim();
