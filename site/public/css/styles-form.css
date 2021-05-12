@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body { 
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(0, 0, 0);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -96,7 +96,7 @@ margin: 10px 50x;
     visibility: visible;
 }
 
-.control-form.success i.fa-exclamation-circle {
+.control-form.error i.fa-exclamation-circle {
     color: red;
     visibility: visible;
 }

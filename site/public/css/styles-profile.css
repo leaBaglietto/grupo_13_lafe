@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: honeydew;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: red;
+    padding: 30px;
+    width: 20%;
+    margin: 20px;
+}
+
+.imagenUsuario {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(150, 150, 150);
+}
+
+.imagenUsuario .user-img {
+    width: 100%;
+    height: auto;
+}

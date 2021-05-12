@@ -1,413 +1,66 @@
 [
  {
-  "id": "1",
-  "first_name": "Carmela",
-  "last_name": "Pérez",
-  "email": "caperez@yahoo.com.ar",
-  "password": "pepino1",
-  "category": "vendedora",
-  "image": "null"
- },
- {
-  "id": "2",
-  "first_name": "Lucrecia",
-  "last_name": "Varea",
-  "email": "lvarea@yahoo.com.ar",
-  "password": "saraza35",
-  "category": "industrial",
-  "image": "null"
- },
- {
-  "id": "3",
-  "first_name": "Gonzalo",
-  "last_name": "Arrieta",
-  "email": "garrieta@gmail.com",
-  "password": "tomate65",
-  "category": "vendedor",
-  "image": "null"
- },
- {
-  "full_name": "pedro alexis",
-  "email": "lea@lea",
+  "first_name": "Javier",
+  "last_name": "Herrera",
+  "email": "javi@dh.com",
+  "category": "",
   "password": "1234",
-  "repassword": "1234",
-  "id": 4
+  "id": 72
  },
  {
-  "full_name": "pedro alexis",
-  "email": "lea@lea",
+  "first_name": "Javier",
+  "last_name": "Herrera",
+  "email": "javi@dh.com",
+  "category": "",
   "password": "1234",
-  "repassword": "1234",
-  "id": 5
+  "id": 73
  },
  {
-  "full_name": "lando",
+  "first_name": "Javier",
+  "last_name": "Herrera",
+  "email": "javi@dh.com",
+  "category": "",
+  "password": "1234",
+  "id": 74
+ },
+ {
+  "first_name": "Javier",
+  "last_name": "Herrera",
+  "email": "javi@dh.com",
+  "category": "",
+  "password": "1234",
+  "id": 75
+ },
+ {
+  "first_name": "Javier",
+  "last_name": "Herrera",
+  "email": "javi@dh.com",
+  "category": "",
+  "password": "1234",
+  "id": 76
+ },
+ {
+  "first_name": "Javier",
+  "last_name": "Herrera",
+  "email": "javi@dh.com",
+  "category": "",
+  "password": "1234",
+  "id": 77
+ },
+ {
+  "first_name": "Lando",
+  "last_name": "Cortes",
   "email": "lando@dh.com",
-  "password": "1234",
-  "repassword": "1234",
-  "id": 6
+  "category": "",
+  "password": "123",
+  "id": 78
  },
  {
-  "first_name": "lala",
-  "last_name": "lolo",
+  "first_name": "Lando",
+  "last_name": "Cortes",
   "email": "lando@dh.com",
-  "category": "vendedor",
-  "password": "1234",
-  "repassword": "1234",
-  "id": 7
- },
- {
-  "first_name": "Pao",
-  "last_name": "Pol",
-  "email": "pol@blue",
-  "category": "comprador",
-  "password": "1234",
-  "repassword": "1234",
-  "id": 8
- },
- {
-  "first_name": "Pol",
-  "last_name": "saiyan blue",
-  "email": "pol@blue",
-  "category": "vendedor",
-  "password": "12345",
-  "repassword": "12345",
-  "id": 9
- },
- {
-  "first_name": "Pedro",
-  "last_name": "Maulhardt",
-  "email": "maulhardtpedro@gmail.com",
-  "category": "vendedor",
-  "password": "54321",
-  "id": 10
- },
- {
-  "first_name": "Pedro",
-  "last_name": "Maulhardt",
-  "email": "maulhardtpedro@gmail.com",
-  "category": "vendedor",
-  "password": "12345",
-  "id": 11
- },
- {
-  "first_name": "Alexis",
-  "last_name": "Croata",
-  "email": "alexis@gmail.com",
-  "category": "comprador",
-  "password": "1111",
-  "id": 12
- },
- {
-  "first_name": "lando",
-  "last_name": "lando",
-  "email": "lando@gmail.com",
-  "category": "vendedor",
-  "password": "1212",
-  "id": 13
- },
- {
-  "first_name": "lando",
-  "last_name": "lando",
-  "email": "lando@gmail.com",
-  "category": "vendedor",
-  "password": "1212",
-  "id": 14
- },
- {
-  "first_name": "lando",
-  "last_name": "man",
-  "email": "lando@hotmail.com",
-  "category": "vendedor",
-  "password": "3333",
-  "id": 15
- },
- {
-  "first_name": "lando",
-  "last_name": "man",
-  "email": "lando@hotmail.com",
-  "category": "vendedor",
-  "password": "3333",
-  "id": 16
- },
- {
-  "first_name": "lando",
-  "last_name": "man",
-  "email": "lando@hotmail.com",
-  "category": "vendedor",
-  "password": "121212",
-  "id": 17
- },
- {
-  "first_name": "lando",
-  "last_name": "man",
-  "email": "lando@hotmail.com",
-  "category": "vendedor",
-  "password": "2222",
-  "id": 18
- },
- {
-  "first_name": "dd",
-  "last_name": "dd",
-  "email": "dede@gmail.com",
-  "category": "vendedor",
-  "password": "nadie",
-  "id": 19
- },
- {
-  "first_name": "nadie",
-  "last_name": "mas",
-  "email": "nadiemas@mail.com",
   "category": "",
-  "password": "dale",
-  "id": 20
- },
- {
-  "first_name": "h",
-  "last_name": "a",
-  "email": "ha@ha",
-  "category": "vendedor",
-  "password": "gmail",
-  "id": 21
- },
- {
-  "first_name": "h",
-  "last_name": "a",
-  "email": "ha@ha",
-  "category": "vendedor",
-  "password": "aa",
-  "id": 22
- },
- {
-  "first_name": "abc",
-  "last_name": "",
-  "email": "",
-  "category": "",
-  "password": "",
-  "id": 23
- },
- {
-  "first_name": "abc",
-  "last_name": "abc",
-  "email": "abc@abc.com",
-  "category": "vendedor",
-  "password": "abc",
-  "id": 24
- },
- {
-  "first_name": "va",
-  "last_name": "va",
-  "email": "va@gmail.com",
-  "category": "comprador",
-  "password": "va",
-  "id": 25
- },
- {
-  "first_name": "no",
-  "last_name": "no",
-  "email": "no@no.com",
-  "category": "vendedor",
-  "password": "nada",
-  "id": 26
- },
- {
-  "first_name": "na",
-  "last_name": "na",
-  "email": "na@na",
-  "category": "comprador",
-  "password": "nada",
-  "id": 27
- },
- {
-  "first_name": "na",
-  "last_name": "na",
-  "email": "na@na",
-  "category": "comprador",
-  "password": "nada",
-  "id": 28
- },
- {
-  "first_name": "na",
-  "last_name": "na",
-  "email": "na@na",
-  "category": "comprador",
-  "password": "m",
-  "id": 29
- },
- {
-  "first_name": "na",
-  "last_name": "na",
-  "email": "na@na",
-  "category": "comprador",
-  "password": "asas",
-  "id": 30
- },
- {
-  "first_name": "d",
-  "last_name": "d",
-  "email": "dd@gmail.com",
-  "category": "vendedor",
-  "password": "dd",
-  "id": 31
- },
- {
-  "first_name": "a",
-  "last_name": "",
-  "email": "",
-  "category": "",
-  "password": "",
-  "id": 32
- },
- {
-  "first_name": "a",
-  "last_name": "a",
-  "email": "a@a",
-  "category": "comprador",
-  "password": "a",
-  "id": 33
- },
- {
-  "first_name": "a",
-  "last_name": "a",
-  "email": "a@a",
-  "category": "comprador",
-  "password": "a",
-  "id": 34
- },
- {
-  "first_name": "a",
-  "last_name": "a",
-  "email": "a@a",
-  "category": "comprador",
-  "password": "a",
-  "id": 35
- },
- {
-  "first_name": "a",
-  "last_name": "a",
-  "email": "a@a",
-  "category": "comprador",
-  "password": "a",
-  "id": 36
- },
- {
-  "first_name": "a",
-  "last_name": "a",
-  "email": "a@a",
-  "category": "comprador",
-  "password": "a",
-  "id": 37
- },
- {
-  "first_name": "funciona",
-  "last_name": "funciona",
-  "email": "funciona@algo",
-  "category": "vendedor",
-  "password": "f",
-  "id": 38
- },
- {
-  "first_name": "h",
-  "last_name": "",
-  "email": "",
-  "category": "",
-  "password": "",
-  "id": 39
- },
- {
-  "first_name": "river",
-  "last_name": "plate",
-  "email": "river@plate",
-  "category": "comprador",
-  "password": "river",
-  "id": 40
- },
- {
-  "first_name": "Carlo",
-  "last_name": "Cana",
-  "email": "carlo@cana.com",
-  "category": "vendedor",
-  "password": "234234",
-  "id": 41
- },
- {
-  "first_name": "Carlo",
-  "last_name": "Cana",
-  "email": "carlo@cana.com",
-  "category": "vendedor",
-  "password": "234234",
-  "id": 42
- },
- {
-  "first_name": "borrar usuario",
-  "last_name": "",
-  "email": "",
-  "category": "",
-  "password": "",
-  "id": 43
- },
- {
-  "first_name": "",
-  "last_name": "",
-  "email": "",
-  "category": "",
-  "password": "",
-  "id": 44
- },
- {
-  "first_name": "aaa",
-  "last_name": "",
-  "email": "",
-  "category": "",
-  "password": "",
-  "id": 45
- },
- {
-  "first_name": "",
-  "last_name": "",
-  "email": "",
-  "category": "",
-  "password": "",
-  "id": 46
- },
- {
-  "first_name": "",
-  "last_name": "",
-  "email": "",
-  "category": "",
-  "password": "",
-  "id": 47
- },
- {
-  "first_name": "",
-  "last_name": "",
-  "email": "eefwefw",
-  "category": "",
-  "password": "qqqqqq",
-  "id": 48
- },
- {
-  "first_name": "",
-  "last_name": "",
-  "email": "",
-  "category": "",
-  "password": "",
-  "id": 49
- },
- {
-  "first_name": "",
-  "last_name": "",
-  "email": "",
-  "category": "",
-  "password": "",
-  "id": 50
- },
- {
-  "first_name": "",
-  "last_name": "",
-  "email": "",
-  "category": "",
-  "password": "",
-  "id": 51
+  "password": "123",
+  "id": 79
  }
 ]
