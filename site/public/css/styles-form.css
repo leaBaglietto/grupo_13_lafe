@@ -6,12 +6,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* HEADER */
-/* .container {
-    width: 100%;
-    height:400px;
- 
-}*/
 .logo {
     width: 50%;
     height: 200px;
@@ -86,9 +80,6 @@ margin: 10px 50x;
 
 .control-form i {
     visibility: hidden;
-/*     position: absolute;
-    top: 40px;
-    right: 10px; */
 }
 
 .control-form.success i.fa-check-circle {
