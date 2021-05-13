@@ -22,16 +22,19 @@
                 <% if(!locals.user){ %>
                     <h1>Pagina Funcionando</h1>
                     <% }else{ %>
+                        <h3>Bienvenido</h3>
                         <div class="imagenUsuario">
-                        <img class="user-img" src="/img/usuario2.png" alt="">
+                        <img class="user-img" src="/img/<%= user.avatar %>" alt=""> <!-- <%= user.avatar %> -->
                         </div>
                         <h2>Hola <%= user.first_name %> <%= user.last_name %>
                         </h2>
                         <br>
                         <div class="alert alert-success">
-                            <%= user.email %>
+                        <p>Usuario: <%= user.email %></p>
                         </div>
-                        <!-- <img src="/img/<%= user.avatar %> "> -->
+                        <div class="alert alert-success">
+                        <p>Contraseña: <%= user.password %></p>
+                        </div>
                         <% } %>
                       
             </div>

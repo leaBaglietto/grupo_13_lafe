@@ -62,5 +62,59 @@
   "category": "",
   "password": "123",
   "id": 79
+ },
+ {
+  "first_name": "Lando2",
+  "last_name": "Cortes2",
+  "email": "lando@kamehouse.com",
+  "category": "",
+  "password": "1234",
+  "image": "maestro.jpg",
+  "id": 80
+ },
+ {
+  "first_name": "Lando2",
+  "last_name": "Cortes2",
+  "email": "lando@kamehouse.com",
+  "category": "",
+  "password": "1234",
+  "image": "maestro.jpg",
+  "id": 81
+ },
+ {
+  "first_name": "Lando2",
+  "last_name": "Cortes2",
+  "email": "lando@kamehouse.com",
+  "category": "",
+  "password": "1234",
+  "image": "maestro.jpg",
+  "id": 82
+ },
+ {
+  "first_name": "Lando2",
+  "last_name": "Cortes2",
+  "email": "lando@kamehouse.com",
+  "category": "",
+  "password": "1234",
+  "image": "maestro.jpg",
+  "id": 83
+ },
+ {
+  "first_name": "Lando2",
+  "last_name": "Cortes2",
+  "email": "lando@kamehouse.com",
+  "category": "",
+  "password": "1234",
+  "image": "maestro.jpg",
+  "id": 84
+ },
+ {
+  "first_name": "Lando2",
+  "last_name": "Cortes2",
+  "email": "lando@kamehouse.com",
+  "category": "",
+  "password": "1234",
+  "image": "maestro.jpg",
+  "id": 85
  }
 ]

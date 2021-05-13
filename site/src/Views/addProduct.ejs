@@ -26,18 +26,24 @@
 ​
     <!--FORMULARIO-->
     <div class="container-form">
-        <form class="formulario" action="/product/create" method="POST">
+        <form class="formulario" action="/product/create" method="POST" id="form">
             <div class="control-form">
                 <label></label>
-                <input type="text" name="product_name" class="control" placeholder="Nombre del producto">
+                <input type="text" name="product_name" class="control" placeholder="Nombre del producto" id="product_name">
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
             </div>
             <div class="control-form">
                 <label></label>
-                <input type="text" name="brand" class="control" placeholder="Marca">
+                <input type="text" name="brand" class="control" placeholder="Marca" id="brand">
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
             </div>
             <div class="control-form">
                 <label></label>
-                <input type="text" name="price" class="control" placeholder="Precio">
+                <input type="text" name="price" class="control" placeholder="Precio" id="price">
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
             </div>
             <div class="control-form">
                 <label class="categoria"></label>
@@ -51,16 +57,27 @@
             </div>
             <div class="control-form">
                 <label></label>
-                <textarea  class="description" name="description" class="control" placeholder="Descripción"></textarea>
+                <textarea  class="description" name="description" class="control" placeholder="Descripción"></textarea id="description">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
             </div>
+
+            <div class="control-field-login-register ">
+                <div class="block-input-login-register">
+                    <input type="file" id="image" name="image" class="abmProducts-input-effect" id="image">
+                    <label for="image">Imagen</label>
+                    <span class="focus-border-login-register-effect"></span>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>      
     ​
             <div class="control-form">
                 <button class="control-button" type="submit"> Agregar Producto </button>
-                <button class="control-button" type="reset"> Cancelar </button>
             </div>
         </form>
 
     </div>
     
 </body>
+<script src="/js/productValidation.js"></script>
 </html> 
