@@ -2,7 +2,9 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const methodOverride=require('method-override');
+
 // --- Configuracion ---
+
 // LLAMAMOS A EJS PARA QUE SEA NUESTRO TEMPLATE ENGINE
 app.use(express.static('../public'));
 app.set('view engine', 'ejs');
@@ -11,6 +13,7 @@ app.set('views', './views');
 //Formularios
 app.use(express.urlencoded({extended:false}))
 app.use(methodOverride('_method'));
+
 //Rutas
 const mainRoutes=require('./routes/mainRoutes');
 const userRouter=require('./routes/userRouter');
@@ -28,5 +31,10 @@ app.listen (3030, () => {
     console.log ('ferretero atendiendo en la caja 3030');
     console.log ('--- #quedateEnCasa compra onLine ---')
 });
+
+//Error 404
+const error404 = require('./middlewares/notFound');
+//middleware de error 404 (2 maneras distintas de mostrar el error404)
+app.use(error404);
 
 
