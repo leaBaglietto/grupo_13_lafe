@@ -15,20 +15,37 @@
 
     <!--ENLACE A HOJA DE ESTILO-->
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/stylesError404.css">
+    <link rel="stylesheet" href="../../css/styles.css">
 
     <title>🔧 LAFE - Herramientas 🔧</title>
 </head>
 
 <body>
     <!--HEADER-->
-    <%- include('partials/header') %>
+ <!--NAVEGADOR-->
+ <div class="nav-bar">
+    <div class="logo-lafe">
+        <img src="../img/lafe-logo.svg" alt="">
+        <a href="/"></a>
+    </div>
+
+    <div class="menu-sec">
+        <ul>
+            <li><a href="/login/enter">Login</a></li>
+            <li><a href="/users/create">Registro</a></li>
+            <li><a href="/product/create">Alta de producto</a></li>
+            <li><a href="/views/productDetail">Editar Producto</a></li>
+            <li><a href="/views/error404">Error 404</a></li>
+        </ul>
+    </div>
+</div>
+<!--FIN NAVEGADOR-->
         <!--FIN HEADER-->
         <section class="contentError404">
-            <h2 class="titleError404">Perdon pero por ahora no podrias estar accediendo, por temas gremiales</h2>
-            <div class="contentImageError404">
-                <img src="/img/error404.jpg" alt="imagenError">
-            </div>
+        <div class="container-text-img">
+            <h2 class="titleError404">POR PROBLEMAS GREMIALES, <br> no podés acceder a la página solicitada.</h2>
+            <img class="imgError" src="/img/error404.gif" alt="imagenError">
+        </div>
             <h2 class="messageError404">Tenemos a los mejores expertos trabajando para solucionar el problema</h2>
             <h2 class="messageError404">Muchas Gracias</h2>
         </section>

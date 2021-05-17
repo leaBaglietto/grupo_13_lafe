@@ -34,6 +34,9 @@
                 <input type="text" name="email" class="control" placeholder="ingrese su mail" id="email">
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error message</small>
+                <!--Mensaje de error desde el backend-->
+              <% if( locals.errors && errors.email){ %><p class="errorMessage"> <%= errors.email.msg %></p><% } %>
+              <!------------------------------------->
             </div>
 
             <div class="control-form">
@@ -41,6 +44,9 @@
                 <input type="password" name="password" class="control" placeholder="contraseña" id="password">
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error message</small>
+                <!--Mensaje de error desde el backend-->
+              <% if( locals.errors && errors.password){ %><p class="errorMessage"> <%= errors.password.msg %></p><% } %>
+              <!------------------------------------->
             </div>
                  <button class="control-button" type="submit"> Ingresar </button>
         </form> 

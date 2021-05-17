@@ -116,5 +116,17 @@
   "password": "1234",
   "image": "maestro.jpg",
   "id": 85
+ },
+ {
+  "first_name": "Leandro",
+  "last_name": "Baglietto",
+  "email": "leandro@lala.com",
+  "category": "vendedor",
+  "password": "1234",
+  "image": "",
+  "id": 86
+ },
+ {
+  "id": 87
  }
 ]

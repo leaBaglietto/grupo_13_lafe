@@ -3,7 +3,9 @@ const controller = {
     res.render('index');
     }
   
-}
+};
+
+
 
 
 module.exports = controller;

@@ -34,7 +34,6 @@ app.listen (3030, () => {
 
 //Error 404
 const error404 = require('./middlewares/notFound');
-//middleware de error 404 (2 maneras distintas de mostrar el error404)
 app.use(error404);
 
 

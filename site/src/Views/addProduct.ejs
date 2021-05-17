@@ -26,7 +26,7 @@
 ​
     <!--FORMULARIO-->
     <div class="container-form">
-        <form class="formulario" action="/product/create" method="POST" id="form">
+        <form class="formulario" action="/product/create" method="POST" id="form" enctype="multipart/form-data">
             <div class="control-form">
                 <label></label>
                 <input type="text" name="product_name" class="control" placeholder="Nombre del producto" id="product_name">
@@ -57,7 +57,7 @@
             </div>
             <div class="control-form">
                 <label></label>
-                <textarea  class="description" name="description" class="control" placeholder="Descripción"></textarea id="description">
+                <textarea id="description" class="description" name="description" class="control" placeholder="Descripción"></textarea >
                     <i class="fas fa-exclamation-circle"></i>
                     <small>Error message</small>
             </div>
@@ -79,5 +79,5 @@
     </div>
     
 </body>
-<script src="/js/productValidation.js"></script>
+ <script src="/js/productValidation.js"></script> 
 </html> 

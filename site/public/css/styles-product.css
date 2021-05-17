@@ -10,37 +10,38 @@ body {
 .nav-bar {
     width: 70%;
     height: auto;
-    margin: auto;
-    padding: 50px;
+    margin: auto; 
+    padding: 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
     align-items: center;
 }
-.menu-sec {
-    display: flex;
-}
-.menu-sec i {
-    padding-left: 20px;
-}
+.menu-sec ul{
+    list-style: none;
+    margin:0px;
+    padding: 0px;
+   }
+
+   .menu-sec li{
+    display: inline;
+    margin: 5px;
+   }
+
 .logo-lafe {
     width: 250px;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 
 }
 .logo-carrito a, .logo-registrarse a, .burger-menu {
     color: white;
 }
-.hero-img {
-    width: 100%;
-    height: 100%;
-}
 
 .nav-search input {
-    width: 200px;
-    height: 2rem;
-    padding: 2px;
+    width: 110%;
+    height: 1rem;
+    padding: 1px;
     border-radius: 25px;
     border: 1px solid  #EB0000;
     background-color: rgba(255, 255, 255, 0.5);
@@ -48,11 +49,69 @@ body {
     font-size: 13px;
     text-align: center;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 /* BARRA NAVEGADORA Fin*/
 
+/* HERO SLIDER */
+
+.hero {
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;/*oculta exedente de las imagenes del slider*/
+}
+
+.hero ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 300%;
+    animation: move-slider 13s infinite;
+    animation-direction:alternate;
+    animation-timing-function: ease;
+}
+
+.hero ul li {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.hero ul li img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+@keyframes move-slider{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    40% {margin-left: -100%;}
+    60% {margin-left: -100%;}
+
+    80% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+}
+
 /* detalle producto*/
+.container_product h2 {
+font-size: 30px;
+}
+
+.container_product h3 {
+    font-size: 24px;
+    }
+
+.container_product p {
+    font-size: 18px;
+    }    
+
 .container_product {
     width: 70%;
     height: auto;
@@ -60,12 +119,12 @@ body {
     /* background-color: #EB0000; */
     display: flex;
     margin-bottom: 200px;
-}
+};
 
 .product-img {
     width: 50%;
     height: 500px;
-    background: url("/img/producto2.jpg");
+    background-color: hotpink;
     background-size: cover;
 }
 .container-detail {

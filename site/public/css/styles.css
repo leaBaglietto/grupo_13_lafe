@@ -88,6 +88,27 @@ body {
     width: 100%;
 }
 
+/* Error 404 */
+.container-text-img {
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+.titleError404 {
+    color: white;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.messageError404 {
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+}
+/* ------------ FIN Error 404 ---------- */
 @keyframes move-slider{
     0% {margin-left: 0;}
     20% {margin-left: 0;}
@@ -246,19 +267,7 @@ body {
     border-right: solid 1px;
     border-color: white;
 }
-/* Seccion de SERVICIOS FIN*/
 
-/* Seccion de Ofertas inicio*/
-/*
-.nacional1, .nacional2, .nacional3, .nacional4 {
-    background-color: rgb(200, 255, 0);
-    width: 300px;
-    height: 300px;
-    padding: 15px;
-    margin: 20px auto;
-    color: rgb(255, 255, 255);
-    text-align: center;
-}*/
 .title-ofertas {
     color: white;
     margin: auto;
